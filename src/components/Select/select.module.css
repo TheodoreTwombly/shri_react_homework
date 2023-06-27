@@ -1,0 +1,25 @@
+.wrapperSelect{
+    display: flex;
+    justify-content: space-between;
+    color: #999FA6;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.title {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.image {
+    fill: #999FA6;
+}
+
+.rotateArrow {
+    transform:rotate(180deg);
+}
+
+div.opened {
+    border: 1px solid #FF5500;
+    color: #1B1F23
+}

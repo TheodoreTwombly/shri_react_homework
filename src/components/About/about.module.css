@@ -1,0 +1,22 @@
+.wrapper {
+    padding: 24px;
+    background-color: white;
+    border-radius: 8px;
+    flex-grow: 0;
+}
+
+.title {
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.text {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text:last-child {
+    margin-bottom: 0px;
+}
