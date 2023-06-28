@@ -15,9 +15,11 @@ export const Header = () => {
     <header className={header.wrapper}>
       <Link href="/">Билетопоиск</Link>
       <div className={header.wrapperAmount}>
-        <div className={header.amount}>
-          <p>{totalAmount}</p>
-        </div>
+        {totalAmount > 0 && (
+          <div className={header.amount}>
+            <p>{totalAmount}</p>
+          </div>
+        )}
         <Link href="/cart">
           <Basket
             width={32}
