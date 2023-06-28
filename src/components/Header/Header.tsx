@@ -5,9 +5,12 @@ import Basket from "../../../public/basket.svg";
 import header from "./header.module.css";
 import Link from "next/link";
 import { useSelector } from "react-redux";
+import { State } from "@/redux/store";
 
 export const Header = () => {
-  const totalAmount = useSelector((state) => selectTotalTicketAmount(state));
+  const totalAmount = useSelector((state: State) =>
+    selectTotalTicketAmount(state)
+  );
   return (
     <header className={header.wrapper}>
       <Link href="/">Билетопоиск</Link>
